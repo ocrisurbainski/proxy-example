@@ -6,4 +6,9 @@ public class NotFoundException extends RuntimeException {
         super(message);
     }
 
+
+    public static NotFoundException ofPessoaNaoEncontrada(String documento) {
+        return new NotFoundException(String.format("Pessoa com documento '%s' não encontrada!", documento));
+    }
+
 }

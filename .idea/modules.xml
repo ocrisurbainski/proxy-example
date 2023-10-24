@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pessoa-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pessoa-api.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxy-example.iml" filepath="$PROJECT_DIR$/proxy-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy.main.iml" />
     </modules>
   </component>
 </project>

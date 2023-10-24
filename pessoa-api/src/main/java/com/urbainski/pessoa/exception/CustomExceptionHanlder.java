@@ -14,4 +14,9 @@ public class CustomExceptionHanlder extends ResponseEntityExceptionHandler {
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());
     }
 
+    @ExceptionHandler(DataDuplicatedException.class)
+    public ResponseEntity<String> hanldeNotFoundException(DataDuplicatedException ex) {
+        return ResponseEntity.status(HttpStatus.UNPROCESSABLE_ENTITY).body(ex.getMessage());
+    }
+
 }

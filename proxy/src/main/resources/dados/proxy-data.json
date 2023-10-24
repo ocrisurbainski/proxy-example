@@ -1,0 +1,30 @@
+[
+  {
+    "method": "GET",
+    "path": "/pessoa/04052939921",
+    "status": "OK",
+    "mediaType": "application/json",
+    "responseBody": "{\"oid\": 25636,\"nome\":\"Joeli Vivian Urbainski\",\"documento\": \"04052939921\",\"nascimento\":\"1992-12-25\",\"tipoPessoa\":\"FISICA\",\"agro\":false}"
+  },
+  {
+    "method": "POST",
+    "path": "/pessoa/04052939922",
+    "status": "CREATED",
+    "mediaType": "application/json",
+    "responseBody": "{\"oid\": 25637,\"nome\":\"Joeli Vivian Urbainski novo teste mockado\",\"documento\": \"04052939922\",\"nascimento\":\"1992-12-25\",\"tipoPessoa\":\"FISICA\",\"agro\":false}"
+  },
+  {
+    "method": "DELETE",
+    "path": "/pessoa/04052939923",
+    "status": "OK",
+    "mediaType": "application/json",
+    "responseBody": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/pessoa/04052939924",
+    "status": "NOT_FOUND",
+    "mediaType": "application/json",
+    "responseBody": "Pessoa não encontrada!"
+  }
+]
